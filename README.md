@@ -1,3 +1,7 @@
+## Azure Deployment Steps
+1. Deploy locally & verify working on localhost
+2. Initalize with Linux App Service running Python 
+3. Deploy using Local Git | https://docs.microsoft.com/en-us/azure/app-service/deploy-local-git
 
 ### Repository Modifications 
 
