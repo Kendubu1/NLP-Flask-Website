@@ -1,10 +1,17 @@
 from flask import Flask, request, render_template,jsonify
 import nltk
+nltk.download('popular')
+import ssl
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
 from autocorrect import spell
 from gensim.summarization import summarize as g_sumn
 
 app = Flask(__name__)
-
 @app.route('/')
 @app.route('/home')
 def home():

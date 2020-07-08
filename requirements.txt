@@ -1,0 +1,5 @@
+autocorrect==2.0.0
+Flask==1.1.2
+gensim==3.8.3
+nltk==3.5
+spell==0.38.1
