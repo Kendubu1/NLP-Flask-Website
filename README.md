@@ -12,9 +12,9 @@ try:
 except AttributeError:
     pass
 else:
-    ssl._create_default_https_context = _create_unverified_https_context                                 |
+    ssl._create_default_https_context = _create_unverified_https_context                                 \
 
-
+|
 Created Date: 30 Jan 2019
 # NLP-Flask-Website
 <b>static folder</b> contains all the CSS and images<br>
