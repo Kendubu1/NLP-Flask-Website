@@ -5,8 +5,9 @@
 |----------------------|--------------------------------------------|
 | `requirements.txt`           | Added requirement.txt in order for Azure to build the app with Oryx since it looks for a requirements.txt to build all dependencies              |
 | `api.py -> app.py`       | Renamed to account for Azure Startup - Azure only looks for app.py or application.py with Flask during startup                       |
-| `app.py`               | Added the following... "nltk.download('popular')" & <br> import ssl ... ssl._create_default_https_context = _create_unverified_https_context  |
-Created Date: 30 Jan 2019
+| `app.py`               | Updated app.py with "nltk.download('popular')" to download nltk data & import ssl logic to disable SSL when running locally.
+
+
 # NLP-Flask-Website
 <b>static folder</b> contains all the CSS and images<br>
 <b>template folder</b> contains all the HTML pages<br>
