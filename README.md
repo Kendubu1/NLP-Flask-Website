@@ -2,7 +2,7 @@
 1. Deploy locally & verify working on localhost
 2. Initalize with Linux App Service running Python 
 3. Deploy using Local Git | https://docs.microsoft.com/en-us/azure/app-service/deploy-local-git
-
+4. Test your site! | Example: https://nlp-flask-website.azurewebsites.net/
 ### Repository Modifications 
 
 | Files             |  Content                                   |
